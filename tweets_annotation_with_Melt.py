@@ -4,7 +4,7 @@
 #This program annotat tweets in the MongoDB data base 
 #We send the bags of 20 000 tweets to Melt and we get a list of tweet annotated 
 from __future__ import unicode_literals   
-import meltWrapper
+from melt_wrapper import meltWrapper
 from pymongo import MongoClient
 import timeit	
 
