@@ -9,10 +9,12 @@ For a tweet like " La batterie de mon téléphone meurt plus vite que des parent
 La/DET/0.999997596102  batterie/NC/0.998097404522 de/P/0.999682540908  mon/DET/0.819678627324 téléphone/NC/0.998192074148  meurt/V/0.998281963964 plus/ADV/0.997822241042  vite/ADV/0.8338042831 que/CS/0.954211330489  des/DET/0.976683310825 parents/NC/0.999859599512 dans/P/0.999868242281 un/DET/0.993384823012     Disney/NPP/0.924351672686
 ```
 ## Installing and requirements
+
 You need Python >= 2.6 or >= 3.3
 You should install MElt
 You need pymongo
 This program uses also melt_wrapper.py program for doing a connection between Melt and Python. 
+
 ### Melt_Wrapper.py
 This program contains two functions : tagListOfTexts and tag.
 tagListOfTexts takes as parameter a list of texts to tag. It groups them into a string from the \n and then it returns results.
