@@ -1,7 +1,7 @@
 # Tweets annotation with MElt
 This is a part of speech tagging of tweets with Melt for the tweets stocked in MongoDB database and it stocks them in mongoDB.
 It uses [MElt](https://team.inria.fr/almanach/fr/melt/).
-# Example of MElt 's part of sppech tagging
+# Example of MElt 's part of speech tagging
 The format of MElt 's part of speech tagging is :
 [token]/[part of speech tagging]/[probability]
 For a tweet like " La batterie de mon téléphone meurt plus vite que des parents dans un Disney" you will have this output in MElt:
